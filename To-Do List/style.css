@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom right,darkslateblue, purple);
+}
+
+.Main-div {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+#Word {
+    color: darkslateblue;
+}
+
+
+#To-Do-Input{
+    width: 80%;
+    height: 40px;
+    padding: 7px 30px;
+    border-radius: 30px;
+    border: 1px;
+    background-color: whitesmoke;
+}
+
+.Input-Button{
+    position: relative; 
+}
+
+#add{
+   
+  position: absolute;
+  right: 0;             /* stick to the right edge */
+  top: 0;
+  height: 100%;   
+  width: 30%;      /* same height as input */
+  border: none;
+  background-color:tomato;
+  color: white;
+  padding: 0 15px;
+  cursor: pointer;
+  border-radius: 40px;
+    
+}
