@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+.App-Container{
+    width: 360px;
+    height: 400px;
+    border: 1px solid red;
+    margin: 100px auto;
+    background: linear-gradient(to bottom right, rgb(48, 197, 234), rgb(237, 141, 227));
+    border-radius: 20px
+}
+
+
+form input{
+    margin: 30px;
+    width: 60%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+form button{
+    width: 10%;
+    height: 30px;
+    margin: 10px 0;
+}

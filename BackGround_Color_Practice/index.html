@@ -1,0 +1,140 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>background_Color</title>
+
+        <style>
+            body {
+                background-color: black; /* black background for the page */
+                font-family: Arial, sans-serif;
+                margin: 20px;
+             }
+
+            header{
+                background-color: rgb(81, 239, 81);
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            h1, h2{
+                background-color: rgb(53, 177, 234);
+            }
+
+            section{
+                background-color: white;
+                color: white;
+                padding: 10px;
+                margin: 20px 0;
+            }
+
+            p{
+                padding: 10px;
+                background-color: yellow;
+            }
+            p::first-line{
+                background-color: burlywood;
+            }
+
+            span{
+                background-color: rgb(228, 108, 128);
+            }
+
+
+             ul li:nth-child(odd) {
+                background-color: #E0F7FA; /* Light cyan for odd items */
+                padding: 5px;
+            }
+
+            ul li:nth-child(even) {
+                background-color: #B2EBF2; /* Slightly darker cyan for even items */
+                padding: 5px;
+            }
+            
+            ul{
+                color: black;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+
+            th {
+            background-color: #9C27B0; /* Purple background for table headers */
+            color: white;
+            padding: 10px;
+            border: 1px solid #CCC;
+            }
+            
+            td {
+            background-color: #d99ce2; /* Light purple background for table cells */
+            padding: 10px;
+            border: 1px solid #CCC;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <header>
+            <h1>Welcome to CSS Background-Color Examples!</h1>
+        </header>
+
+        <section>
+            <h2>Text Elements</h2>
+            <p>This paragraph demonstrates the use of background-color with a yellow hue. Notice how the first line has a light green background due to the pseudo-element styling.
+                  <br>
+                 This is the second line in the paragraph.</p>
+
+            <p>
+                 Here is another paragraph with the same styling.
+                  <br>
+                 This is the second line in the paragraph.
+           </p>
+
+           <span>this span element is style with red pink background</span>
+        </section>
+
+
+        <section>
+            <h2>Lists</h2>
+
+            <ul>
+                <li>List Item One</li>
+                <li>List Item Two</li>
+                <li>List Item Three</li>
+                <li>List Item Four</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h3>Tables</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>cell 1</td>
+                        <td>cell 2</td>
+                    </tr>
+
+                    <tr>
+                        <td>cell 3</td>
+                        <td>cell 4</td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+        </section>
+    </body>
+    </html>
