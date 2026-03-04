@@ -5,30 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Responsive CV – HTML & CSS (Student Project)</title>
 
-  <!-- ──────────────── Code Overview ────────────────
-  🎯 Purpose
-     Build a responsive, printable CV with light/dark themes using CSS variables,
-     a small theme toggle (persisted in localStorage), and clean, accessible HTML.
-
-  🏗️ Layout
-     • .wrapper caps page width → .card holds the entire resume
-     • .header = grid (avatar | title/contact | toggle)
-     • .grid = 2 columns (sidebar 320px | main). Stacks on small screens
-
-  🧩 Theming Flow
-     • Light tokens live in :root
-     • Manual dark = html[data-theme="dark"] overrides tokens
-     • If user never toggles, @media (prefers-color-scheme: dark) applies
-
-  ♿ Accessibility
-     • Descriptive aria-labels
-     • Inline SVGs marked aria-hidden when decorative
-     • Button uses aria-pressed to reflect current state
-
-  🖨️ Print
-     • Removes backgrounds/shadows
-     • Avoids breaking sections mid-item with break-inside: avoid
-  ─────────────────────────────────────────────────── -->
   <style>
     /* ── Theme Tokens (Light by default) ───────────────────────────── */
     :root {
